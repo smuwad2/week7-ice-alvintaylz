@@ -1,5 +1,5 @@
 create table post (
-    id integer primary key,
+    id integer primary key auto_increment,
     create_timestamp datetime,
     update_timestamp datetime,
     subject varchar(100),
