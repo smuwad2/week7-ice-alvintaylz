@@ -21,10 +21,8 @@
                     return this.x * this.y
                 else if (this.selectedOp === '/')
                     return this.x / this.y
-                else
+                else if (this.selectedOp === '%')
                     return this.x % this.y
-
-                return 0
             }
         }
     }
@@ -39,7 +37,7 @@
     
     <p>---------------------</p>
 
-    <p>= {{result}}</p>
+    <p>= {{ result }}</p>
 </template>
 
 <style scoped>

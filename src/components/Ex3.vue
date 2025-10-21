@@ -4,7 +4,7 @@
         // add code here
         data() {
             return {
-                moods: ['happy', 'sad', 'angry'],
+                moods: ['Happy', 'Sad', 'Angry'],
                 selMood: "",
                 subject: "",
                 entry: "",
